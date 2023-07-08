@@ -4,15 +4,14 @@ function getComputerChoice() {
   return choices[randomIndex];
 }
 
-let playerSelection;
-
 function playSingleRound(playerSelection, computerSelection) {
+  playerSelection = playerSelection.toLowerCase();
   if (playerSelection === computerSelection) {
     return "It's a tie!";
   } else if (
-    (playerSelection === "Rock" && computerSelection === "Scissors") ||
-    (playerSelection === "Paper" && computerSelection === "Rock") ||
-    (playerSelection === "Scissors" && computerSelection === "Rock")
+    (playerSelection === "rock" && computerSelection === "scissors") ||
+    (playerSelection === "paper" && computerSelection === "rock") ||
+    (playerSelection === "scissors" && computerSelection === "rock")
   ) {
     return `Player win ${playerSelection} beats ${computerSelection}`;
   } else {
