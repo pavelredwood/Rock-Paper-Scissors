@@ -6,6 +6,7 @@ function getComputerChoice() {
 
 function playSingleRound(playerSelection, computerSelection) {
   playerSelection = playerSelection.toLowerCase();
+  computerSelection = computerSelection.toLowerCase();
   if (playerSelection === computerSelection) {
     return "It's a tie!";
   } else if (
