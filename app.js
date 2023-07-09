@@ -19,3 +19,12 @@ function playSingleRound(playerSelection, computerSelection) {
     return `Comp win ${computerSelection} beats ${playerSelection}`;
   }
 }
+
+function game() {
+  console.log("Game begins!");
+  for (let r = 0; r < 5; r++) {
+    let playerSelection = prompt("Enter your choice (Rock, Paper, or Scissors):");
+    let result = playSingleRound(playerSelection, getComputerChoice());
+    console.log(result);
+  }
+}
