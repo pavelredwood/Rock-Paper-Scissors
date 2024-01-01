@@ -1,0 +1,29 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "This is a simple JavaScript implementation of the game \"Rock Paper Scissors\". It allows you to play a single round against the computer or play a full game of 5 rounds.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelredwood/Rock-Paper-Scissors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavelredwood/Rock-Paper-Scissors/issues"
+  },
+  "homepage": "https://github.com/pavelredwood/Rock-Paper-Scissors#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/eslint-parser": "^7.23.3",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
+  },
+  "dependencies": {
+    "eslint-plugin-html": "^7.1.0"
+  }
+}
