@@ -1,4 +1,7 @@
 const weaponsButtons = document.querySelectorAll('.weapon-button');
+const weaponRock = document.querySelector('.rock-button');
+const weaponPaper = document.querySelector('.paper-button');
+const weaponScissors = document.querySelector('.scissors-button');
 
 function getComputerChoice() {
   const choices = ['Rock', 'Paper', 'Scissors'];
